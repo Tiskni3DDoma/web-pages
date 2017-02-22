@@ -1,0 +1,10 @@
+language: node_js
+install:
+  - npm install
+  - bower install
+script:
+  - gulp build
+
+after_success:
+  git clone https://github.com/Tiskni3DDoma/web-pages.git 
+  #gulp deploy --user $FTP_USERNAME --password $FTP_PASSWORD --host $FTP_ADDRESS
