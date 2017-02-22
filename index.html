@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="robots" content="index, follow" />
+      <meta name="googlebot" content="index, follow, snippet, archive" />
+      <meta name="description" content="Sníte o 3D tiskárně? Nabízíme kurzy 3D tisku, na kterých se naučíte nejen tisknout, ale postavíte si svoji vlastní 3D tiskárnu, kterou si odnesete domů." />
+      <meta name="keywords" content="" />
+      <meta property="og:title" content="Kurzy 3D tisku">
+      <meta property="og:image" content="http://tiskni3ddoma.cz/img/tiskni3D-banner.jpg">
+      <meta property="og:description" content="Sníte o 3D tiskárně? Nabízíme kurzy 3D tisku, na kterých se naučíte nejen tisknout, ale postavíte si svoji vlastní 3D tiskárnu, kterou si odnesete domů.">
+      <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=0">
+      <title>Kurzy 3D tisku</title>
+      <link rel="icon" type="image/png" href="img/logo_black.png">
+      <link rel="stylesheet" href="css/jquery.fullPage.css">
+      <link rel="stylesheet" href="css/font-awesome.css">
+      <link rel="stylesheet" href="css/style.css">
+      <!--[if IE 9]>
+     <link rel="stylesheet" href="css/ie-fix.css">
+      <![endif]-->
+      <script type="text/javascript">
+         window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(5),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(f){"stack"in f&&(t(1),t(4),"addEventListener"in window&&t(2),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(3),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:8,2:5,3:9,4:7,5:20,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(2);t("loader").features.stn=!0,t(1),n.on("fn-start",function(t){var e=t[0];e instanceof Event&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof Event&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:6,2:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:20,2:21,ee:"QJf3ax",gos:"7eSDFh"}],6:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState"],"-")},{1:21,2:20,ee:"QJf3ax"}],7:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:21,2:20,ee:"QJf3ax"}],8:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:21,2:20,ee:"QJf3ax"}],9:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t("ee").create(),a=t(1),s=t(2),c=s(i),f=s(a),u=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new u(t);try{i.emit("new-xhr",[],e),f.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",[r])}catch(o){}}return e},window.XMLHttpRequest.prototype=u.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:5,2:21,ee:"QJf3ax"}],10:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=e(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=e(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",[e])}catch(r){}}};for(var u=0;c>u;u++)n.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:11,3:9,4:5,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],11:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){p.proto="https"===d.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=p.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,c=s.document,f="addEventListener",u="attachEvent",d=(""+location).split("?")[0],p=e.exports={offset:i(),origin:d,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),s[f]("load",n,!1)):(c[u]("onreadystatechange",r),s[u]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],20:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],21:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s,t))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:20,ee:"QJf3ax"}]},{},["G9z0Bl",3,10,4]);
+         ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"ae4d8fc994",applicationID:"11495191",sa:1,agent:"js-agent.newrelic.com/nr-476.min.js"}
+      </script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <!-- This following line is needed in case of using the default easing option or when using another one rather than "linear" or "swing". You can also add the full jQuery UI instead of this file if you prefer -->
+      <script src="vendors/jquery.easings.min.js"></script>
+      <!-- This following line needed in the case of using the plugin option `scrollOverflow:true` -->
+      <script src="vendors/jquery.slimscroll.min.js"></script>
+      <script src="js/libs/html5shiv.js"></script>
+      <script src="js/libs/jquery.fullPage.min.js"></script>
+      <script src="js/script.js"></script>
+      <!-- Photo Swipe Start -->
+      <!-- Core CSS file -->
+      <link rel="stylesheet" href="vendors/photoswipe/dist/photoswipe.css">
+      <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+         In the folder of skin CSS file there are also:
+         - .png and .svg icons sprite,
+         - preloader.gif (for browsers that do not support CSS animations) -->
+      <link rel="stylesheet" href="vendors/photoswipe/dist/default-skin/default-skin.css">
+      <!-- Core JS file -->
+      <script src="vendors/photoswipe/dist/photoswipe.min.js"></script>
+      <!-- UI JS file -->
+      <script src="vendors/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+      <!-- End Photo Swipe Start -->
+
+      <!-- Google Analytics -->
+      <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-65359002-1', 'auto');
+       ga('send', 'pageview');
+
+      </script>
+   </head>
+   <body>
+      <div id="header">
+         <ul id="menu">
+            <li data-menuanchor="intro" class="active"><a href="#intro">Intro</a></li>
+            <li data-menuanchor="course"><a href="#course">Kurz</a></li>
+            <li data-menuanchor="schedule"><a href="#schedule">Harmonogram</a></li>
+            <li data-menuanchor="about"><a href="#about">O nás</a></li>
+            <li id="fb-link"><a href="http://www.facebook.com/tiskni3d" target="_blank">Facebook</a></li>
+         </ul>
+      </div>
+      <div class="page" id="fullpage">
+         <div id="first" class="section" data-anchor="intro">
+            <div class="container clearfix">
+               <div class="row">
+                  <img src="img/tiskni_3D_logo.png" alt="Tiskni 3D doma" id="logo">
+               </div>
+               <div class="row">
+                  <span> Aneb kurz 3D tisku, na kterém se naučíte nejen tisknout, <br/>  ale také si postavíte vlastní 3D tiskárnu, <br/> kterou si odnesete domů. </span>
+               </div>
+               <div class="row ico-down">
+                  <div class="col-1">
+                     <a href="#course" class="toSlide fa fa-angle-double-down fa-3x"></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="section" data-anchor="course">
+            <div class="section-content">
+               <div class="container clearfix">
+                  <div class="row">
+                     <div class="col-left col">
+                        <h1><i class="fa fa-info icon-in-header"></i> Kurz 3D tisku</h1>
+                        <p>Nečekejte, až na trh vstoupí velké korporace s modely na jedno použití a draze placeným servisem. Postavte si vlastní 3D tiskárnu a odneste si ji domů!</p>
+                        <p>Technologický vývoj je velmi rychlý. Bude trvat jen pár let a trh zaplaví 3D tiskárny, které budou lidé kupovat příbuzným na Vánoce a k narozeninám. Budou to podobné stroje, jako jsou dnešní papírové tiskárny: uzavřené systémy, které budete muset koupit za výrazně nadhodnocenou cenu a za jejichž servis dále budete muset platit nemalé částky. Tak funguje business model u podobných zařízení.</p>
+                        <p>Nabízíme vám jiné řešení: Postavte si vlastní 3D tiskárnu, kterou si můžete sami opravovat, a to z dílů, které si sami vyrobíte. Naučíme vás 3D tiskárnu postavit, opravit ji a samozřejmě tisknout, a to pod vedením expertů z 3D laboratoře, specializovaného pracoviště Fakulty informačních technologií ČVUT v Praze, kteří 3D tiskárny vyvíjejí a staví a kteří proškolili již desítky lidí. Kromě školení pro veřejnost se věnují výuce 3D tisku na FIT ČVUT, výzkumu, vývoji nových algoritmů, optimalizaci tiskáren, osvětě veřejnosti a zakázkovému tisku.</p>
+                        <!-- <p>Můžete být stále v prvním percentilu těch, kteří novou technologii zvládnou. Nejezděte do IKEA, vyrábějte si potřeby doma.</p> -->
+                     </div>
+                     <div class="col-right col photo-gallery">
+                        <div class="img-wrap odd"><a href="img/foto/tiskarna_3D_1.jpg" data-size="700x467" data-index="0"><img  src="img/foto/tiskarna_3D_1.jpg"/></a></div>
+                        <div class="img-wrap even"><a href="img/foto/tiskarna_3D_2.jpg" data-size="700x467" data-index="1"><img src="img/foto/tiskarna_3D_2.jpg"/></a></div>
+                        <div class="clearfix"></div>
+                        <div class="img-wrap odd"><a href="img/foto/tiskarna_3D_3.jpg" data-size="700x467" data-index="2"><img src="img/foto/tiskarna_3D_3.jpg"/></a></div>
+                        <div class="img-wrap even"><a href="img/foto/tiskarna_3D_4.jpg" data-size="700x467" data-index="3"><img src="img/foto/tiskarna_3D_4.jpg"/></a></div>
+                        <div class="clearfix"></div>
+                        <div class="img-wrap odd"><a href="img/foto/tiskarna_3D_5.jpg" data-size="700x467" data-index="4"><img src="img/foto/tiskarna_3D_5.jpg"/></a></div>
+                        <div class="img-wrap even"><a href="img/foto/tiskarna_3D_6.jpg" data-size="700x467" data-index="5"><img src="img/foto/tiskarna_3D_6.jpg"/></a></div>
+                        <div class="clearfix"></div>
+                        <div class="img-wrap odd"><a href="img/foto/tiskarna_3D_7.jpg" data-size="700x467" data-index="6"><img src="img/foto/tiskarna_3D_7.jpg"/></a></div>
+                        <div class="img-wrap even"><a href="img/foto/tiskarna_3D_8.jpg" data-size="700x467" data-index="7"><img src="img/foto/tiskarna_3D_8.jpg"/></a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="section" data-anchor="schedule">
+            <div class="section-content">
+               <div class="container clearfix">
+                  <div class="row">
+                     <div class="col-left col">
+                        <h2><i class="fa fa-reorder icon-in-header"></i> Harmonogram</h2>
+                        <p>Kurz 3D tisku je koncipován jako dvoudenní a je určen pro všechny, které baví nové technologie. Mezi potřebné dovednosti účastníka kurzu patří pouze základní znalost práce na PC a manuální zručnost. Kurz má omezený počet účastníků. Maximální počet účastníků na jednu tiskárnu jsou 2, můžete si sebou tedy vzít kamaráda, kolegu či rodinného příslušníka a nebo tiskárnu stavět zcela sám.</p>
+                        <div class="list-left">
+                          <h3>1. Den</h3>
+                          <ul>
+                             <li type="circle">Seznámení s technologií 3D tisku</li>
+                             <li type="circle">Stavba 3D tiskárny, model RebeliX X2</li>
+                             <li type="circle">Kalibrace postaveného zařízení</li>
+                             <li type="circle">Zkušební tisk</li>
+                          </ul>
+                        </div>
+
+                        <h3>2. Den</h3>
+                        <ul>
+                           <li type="circle">Ovládání 3D tiskárny, seznámení s potřebným open-source softwarem</li>
+                           <li type="circle">Příprava 3D modelu pro tisk</li>
+                           <li type="circle">Tisk a konzultace</li>
+                        </ul>
+                        <div style="clear: both"></div>
+                        <h3>Co získáte:</h3>
+                        <ul>
+                          <li type="circle">3D tiskárnu RepRap, model RebeliX X2 (sebereprodukční stroj, který můžete dále rozvíjet)</li>
+                          <li type="circle">naučíte se tiskárnu postavit a rozebrat</li>
+                          <li type="circle">individuální přístup expertů (ne méně než jeden expert na tři týmy)</li>
+                          <li type="circle">školení se můžete zúčastnit s 1 osobou navíc</li>
+                          <li type="circle">ovládání open-source softwaru pro komunikaci 3D tiskárny a počítače</li>
+                          <li type="circle">1kg tiskových strun od společnosti MK Floria</li>
+                          <!--<li type="circle">ukázky výroby, nápady na využití</li>-->
+                          <li type="circle">certifikát absolventa kurzu</li>
+                        </ul>
+                     </div>
+                     <div class="col-right col">
+                        <div class="info-box">
+                           <h3>Nejbližší termín kurzu</h3>
+                           <h3>13.-14.5.2017<br>Praha 6</h3>
+                           <div class="info-box-bottom info-box-bottom-big">20 000 Kč bez DPH</div>
+                        </div>
+                       <p>Cena kurzu je včetně tiskárny a potřebného materiálu.<br>Pro bližší informace nás neváhejte nezávazně kontaktovat pomocí formuláře níže.</p>
+
+                       <h3 class="sub-header">Kontaktujte nás zde</h3>
+                        <form method="POST" action="http://formspree.io/info@tiskni3ddoma.cz">
+                           <input type="email" name="_replyto" placeholder="Váš e-mail">
+                           <textarea name="message" rows="5" placeholder="Vaše zpráva" ></textarea>
+                           <button type="submit">Odeslat</button>
+                           <input type="text" name="_gotcha" style="display:none">
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="about-us" data-anchor="about">
+            <div class="section-content">
+               <div class="container clearfix">
+                  <div class="row">
+                     <h2><i class="fa fa-user icon-in-header"></i> O nás</h2>
+                     <div class="col-left col">
+                        <div class="person-info clearfix">
+                           <img src="img/lide/marek.jpg" alt=""/>
+                           <h3>Ing. Marek Žehra</h3>
+                           <p>Marek je vedoucím laboratoře 3D tisku na FIT ČVUT v Praze a je garantem předmětu 3D tisk. Spolupracuje na optimalizaci součástek pro 3D tiskárny. Ve volných chvílích tiskne cokoliv, co se bude následně hýbat, nebo nějaký užitečný předmět do domácnosti. </p>
+                        </div>
+                        <div class="person-info clearfix">
+                           <img src="img/lide/kuba.jpg" alt=""/>
+                           <h3>Ing. Jakub Průša</h3>
+                           <p>Kuba se věnuje především výuce 3D tisku na FIT ČVUT, prezentaci 3D tiskáren a školením pro veřejnost. Mezi jeho projekty patří např. tisk RC modelu auta a kvadrakoptéry. Kromě 3D tisku věnuje svůj čas programování iOS aplikací. </p>
+                        </div>
+                        <div class="person-info clearfix">
+                           <img src="img/lide/miro.jpg" alt=""/>
+                           <h3>Ing. Miro Hrončok</h3>
+                           <p>Miro pracuje jako open-source softwarový vývojář. Věnuje se mj. vylepšování 3Dtiskových nástrojů a také vyučuje předmět 3D tisk na FIT ČVUT v Praze. Jezdí na české i zahraniční konference přednášet o 3D tisku a open-source softwaru. </p>
+                        </div>
+                     </div>
+                     <div class="col-right col ">
+                       <div class="person-info clearfix">
+                         <img src="img/lide/syky.jpg" alt=""/>
+                         <h3>Tomáš Sýkora</h3>
+                         <p>Syky učí předmět 3D tisk na FIT ČVUT jak v jazyce českém tak i v anglickém. Volný čas defacto nemá, protože když nepracuje pro FIT, tak programuje a stará se o AJTY.</p>
+                       </div>
+                       <div class="person-info clearfix">
+                         <img src="img/lide/magda.jpg" alt=""/>
+                         <h3>Ing. Magda Friedjungová</h3>
+                         <p>Magda studuje doktorskou etapu na FIT ČVUT. Věnuje se především propagaci 3D tisku a přípravám kurzů pro veřejnost. Nejvíce ji baví stavba tiskáren.</p>
+                       </div>
+                        <!--<div class="citation clearfix">-->
+                           <!--<p><i class="fa fa-quote-left"></i>Kurz bol veľmi náučný a praktický, neľutujem, že som prišiel až z Prešova.</p>-->
+                           <!--<p class="author">&ndash; Peter</p>-->
+                        <!--</div>-->
+                        <!--<div class="citation clearfix">-->
+                           <!--<p><i class="fa fa-quote-left"></i>Překvapilo mě, jak je to celé ve skutečnosti jednoduché.</p>-->
+                           <!--<p class="author">&ndash; Jana</p>-->
+                        <!--</div>-->
+                        <!--<div class="citation clearfix">-->
+                           <!--<p><i class="fa fa-quote-left"></i>Velmi jsem ocenil 2. část kurzu, kde jsem se naučil modely tvořit a opravovat.</p>-->
+                           <!--<p class="author">&ndash; Vítek</p>-->
+                        <!--</div>-->
+                        <div class="info-box">
+                           <h3>Kontakt</h3>
+                           <div class="info-box-bottom">
+                              <p><a href="mailto:info@tiskni3ddoma.cz">info@tiskni3ddoma.cz</a> | +420 728 074 260</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   
+      <script type="text/javascript">
+         $( "#first" ).on( "click", ".toSlide", function() {
+         	$.fn.fullpage.moveSectionDown();
+         });
+      </script>
+      <!-- Root element of PhotoSwipe. Must have class pswp. -->
+      <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+         <!-- Background of PhotoSwipe.
+            It's a separate element as animating opacity is faster than rgba(). -->
+         <div class="pswp__bg"></div>
+         <!-- Slides wrapper with overflow:hidden. -->
+         <div class="pswp__scroll-wrap">
+            <!-- Container that holds slides.
+               PhotoSwipe keeps only 3 of them in the DOM to save memory.
+               Don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+               <div class="pswp__item"></div>
+               <div class="pswp__item"></div>
+               <div class="pswp__item"></div>
+            </div>
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+               <div class="pswp__top-bar">
+                  <!--  Controls are self-explanatory. Order can be changed. -->
+                  <div class="pswp__counter"></div>
+                  <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                  <button class="pswp__button pswp__button--share" title="Share"></button>
+                  <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                  <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                  <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                  <!-- element will get class pswp__preloader--active when preloader is running -->
+                  <div class="pswp__preloader">
+                     <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                           <div class="pswp__preloader__donut"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                  <div class="pswp__share-tooltip"></div>
+               </div>
+               <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+               </button>
+               <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+               </button>
+               <div class="pswp__caption">
+                  <div class="pswp__caption__center"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- END of PhotoSwipe. -->
+      <script type="text/javascript">
+         $(document).ready(function() {
+           $('.photo-gallery').each( function() {
+             var $pic = $(this);
+             var getItems = function() {
+                 var items = [];
+                 $pic.find('a').each(function() {
+                   var $href   = $(this).attr('href'),
+                     $size   = $(this).data('size').split('x'),
+                     $width  = $size[0],
+                     $height = $size[1];
+
+                   var item = {
+                     src : $href,
+                     w   : $width,
+                     h   : $height
+                   };
+
+                   items.push(item);
+                 });
+                 return items;
+               };
+
+             var photoSwipeItems = getItems();
+
+             var $pswp = $('.pswp')[0];
+             $pic.on('click', '.img-wrap', function(event) {
+               event.preventDefault();
+
+               var $index = $(this).index('.img-wrap');
+               var options = {
+                 index: $index,
+                 bgOpacity: 0.95,
+                 showHideOpacity: true
+               };
+
+               // Initialize PhotoSwipe
+               var lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, photoSwipeItems, options);
+               lightBox.init();
+             });
+           });
+         });
+      </script>
+   </body>
+</html>

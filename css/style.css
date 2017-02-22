@@ -1,0 +1,662 @@
+@font-face {
+	font-family: 'ScienceFair';
+	src: url('../fonts/Science.eot');
+    src: url('../fonts/Science.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Science.ttf') format('truetype');
+}
+
+body {
+	font-size: 13px;
+	background-color: #ebebeb;
+	font-family: Helvetica, sans-serif;
+}
+h1, h2 {
+	font-family: 'ScienceFair';
+	font-size: 2.5em;
+	color: #000;
+	font-weight: normal;
+	margin: 0;
+}
+div {
+	box-sizing: border-box;
+}
+/* clearfix */
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after  {
+	content:"";
+	display:table;
+}
+.clearfix:after,
+.row:after {
+	clear:both;
+}
+.clearfix,
+.row {
+	zoom: 1;
+}
+/* footer and header */
+#header,
+#footer {
+	position: fixed;
+	width: 100%;
+	background-color: #35bd48;
+	z-index: 10;
+}
+#header {
+	top: 0px;
+	height: 3em;
+	line-height: 3em;
+	/*font-family: 'ScienceFair';*/
+}
+#header .inner {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 3em;
+}
+#footer {
+	bottom: 0px;
+	height: 7.857em;
+	text-align: center;
+}
+#footer .footer-inner {
+  display: table;
+	table-layout: fixed;
+	margin: 0 auto;
+	padding: 0.8em 3em 0 3em;
+	width: 100%;
+	max-width: 1000px;
+}
+
+#footer .address,
+#footer .copyright,
+#footer .socials {
+	width: 35%;
+  font-size: 14px;
+}
+#footer .copyright {
+	padding: 0 1%;
+}
+#footer .address,
+#footer .address-img,
+#footer .address-info,
+#footer .copyright,
+#footer .socials {
+	display: table-cell;
+	vertical-align: middle;
+}
+#footer .address {
+	text-align: left;
+}
+#footer .socials {
+	text-align: right;
+}
+#footer .address-img img {
+	height: 5.5em;
+	padding-right: 1em;
+}
+#footer .address-info {
+	padding-left: 1em;
+	border-left: 1px solid #080808;
+	font-family: 'ScienceFair';
+}
+#footer .copyright,
+#footer .socials {
+	margin-top: 2em;
+}
+#footer .copyright {
+	font-family: 'ScienceFair';
+}
+#footer .socials a {
+	color: #000;
+}
+/* navigation */
+#fp-nav span, .fp-slidesNav span {
+	border-color: #fff;
+  border-width: 3px;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+}
+#fp-nav li, .fp-slidesNav li {
+  height: 16px;
+}
+#fp-nav.right {
+	right: 0.8em;
+}
+#fp-nav li .active span {
+	background: #35bd48;
+}
+/* univerasal content */
+.section .container {
+	margin: 0 auto;
+	/*padding: 0 3em;*/
+	/*max-width: 1000px;*/
+}
+/* first */
+#first {
+	color: #333;
+	text-align: center;
+	font-family: 'ScienceFair';
+
+  background-image: url('../img/bg-white.jpg');
+  background-size: cover;
+  background-position: no-repeat;
+  background-position: center;
+}
+#first a {
+	color: #333;
+}
+#first #logo {
+	width: 40%;
+}
+#first span {
+	display: block;
+	padding-top: 2em;
+	font-size: 1.5em;
+}
+#first .ico-down a {
+	display: block;
+	height: 1.7em;
+	width: 1.7em;
+	border-radius: 1.7em;
+	line-height: 1.8em;
+  background-color: rgba(0,0,0,0.3);
+	margin: 2em auto 000;
+	/*border: 1px solid #333;*/
+	text-decoration: none;
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.1) inset;
+  -moz-box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.1) inset;
+  box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.1) inset;
+}
+#first .ico-down a:hover {
+  -webkit-box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.3) inset;
+  -moz-box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.3) inset;
+  box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.3) inset;
+}
+
+
+/* app section */
+.section-content {
+  max-width: 1150px;
+  margin: 0 auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 73px -11px rgba(0,0,0,0.20);
+  -moz-box-shadow: 0px 0px 73px -11px rgba(0,0,0,0.20);
+  box-shadow: 0px 0px 73px -11px rgba(0,0,0,0.20);
+  overflow: hidden;
+  border-radius: 30px;
+}
+.section-content h2,
+.section-content h1 {
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 3px dotted #35bd48;
+}
+.section-content .row {
+  padding: 3em 3em 2em 3em;
+}
+
+.section-content .row .col-left {
+	float: left;
+	width: 63%;
+}
+.section-content .row .col-right {
+  float: right;
+  /*padding-top: 4.4em;*/
+  padding-top: 0.9em;
+  width: 32%;
+}
+.section-content .row p,
+.section-content .row ul
+{
+	/*margin: 0;*/
+  line-height: 1.6em;
+	font-size: 1.1em;
+}
+
+/* founder */
+#founders {
+	color: #fff;
+	font-family: 'ScienceFair';
+}
+#founders h2 {
+	font-size: 2.143em;
+	margin: 0 0 0.667em 0;
+}
+#founders h3 {
+	font-weight: normal;
+	font-size: 1.286em;
+	margin: 0 0 0.7em 0;
+}
+#founders a {
+	color: #fff;
+	text-decoration: none;
+}
+#founders .col-2 > div,
+#founders .col-1 > div {
+	font-size: 1.286em;
+	margin: 0;
+}
+#founders .col-2 {
+	float: left;
+	width: 50%;
+}
+#founders .col-2 a:hover,
+#founders .col-2 a:focus {
+	color: #2A6496;
+	text-decoration: underline;
+}
+#founders .col-2 i {
+	margin-right: 0.2em;
+}
+#founders .col-2.right {
+	text-align: right;
+}
+#founders .address {
+	display: none;
+}
+@media (orientation:landscape) and (max-width: 1280px) {
+	.section-content .row {
+		margin: 0 0 1em 0;
+	}
+	.section-content .row .col-2 img {
+		width: 80%;
+	}
+}
+@media (max-width: 991px) {
+	#footer .copyright {
+		display: none;
+	}
+	#footer .address {
+		width: 80%;
+	}
+	#footer .socials {
+		width: 20%;
+	}
+}
+@media (orientation:landscape) and (max-width: 767px) {
+	/* footer and header */
+	#footer {
+		display: none;
+	}
+	/* first */
+	#first .ico-down {
+		display: none;
+	}
+	/* app section */
+	.section-content .row {
+		display: table-cell;
+		width: 50%;
+		background-color: #e8e8e8;
+	}
+	.section-content .row:first-child {
+		border-right: 5px solid #000;
+	}
+	.section-content .row .col-2 {
+		float: none;
+		width: 100%;
+		padding: 1em;
+	}
+	.section-content .row .col-2.app-photo{
+		display: none;
+	}
+
+	/* founder */
+	#founders .address {
+		display: block;
+		text-align: center;
+	}
+	#founders h2 {
+		margin: 0;
+	}
+}
+@media (max-width: 479px) {
+	body {
+		font-size: 12px;
+	}
+	/* univerasal content */
+	.section .container {
+		/*padding: 0 2em 0;*/
+	}
+	/* footer and header */
+	#header .inner {
+		padding: 0 2em;
+	}
+	#footer .footer-inner {
+		padding: 0.5em 2em 0 2em;
+	}
+	#footer .address,
+	#footer .socials {
+		font-size: 12px;
+	}
+	#footer .socials {
+		margin-top: 0;
+	}
+	/* app section */
+	.section-content .container {
+	}
+	.section-content .row {
+		margin: 0 0 2.5em 0;
+	}
+	.section-content .row .col-2 {
+		float: none;
+		width: 100%;
+		padding: 1em 1em 0 1em;
+	}
+	.section-content .row .col-2 p {
+		margin: 0;
+		font-size: 1em;
+	}
+	.section-content .row .col-2 p.app-detail {
+		margin-top: 1em;
+	}
+	.section-content .row .col-2.app-photo{
+		display: none;
+	}
+	/* founder */
+	#founders .col-2 {
+		float: none;
+		width: 100%;
+		font-size: 12px;
+	}
+	#founders .col-2:first-child {
+		margin-bottom: 2em;
+	}
+	#founders .col-2 i {
+		margin-right: 0.2em;
+	}
+	#founders .col-2,
+	#founders .col-2.right {
+		text-align: center;
+	}
+	#founders .col-2 h2 {
+		margin: 0 0 0.3em 0;
+	}
+	#founders .col-2 h3 {
+		margin: 0 0 0.3em 0;
+	}
+}
+
+.icon-in-header {
+  background-color: #35bd48;
+  width: 1.4em;
+  text-align: center;
+  height: 1.4em;
+  line-height: 1.6em;
+  color: #fff;
+  font-size: 0.8em;
+  border-radius: 0.4em;
+  margin-right: 0.4em;
+}
+.photo-gallery .img-wrap {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  font-size: 0;
+}
+.photo-gallery .img-wrap.odd {
+  padding: 0 5px 10px 0;
+}
+.photo-gallery .img-wrap.even {
+  padding: 0 0 10px 5px;
+}
+.photo-gallery .img-wrap img {
+  width: 100%;
+  /*border-radius: 14px;*/
+}
+
+.info-box {
+  background-color: #a898cd;
+  border-radius: 12px;
+  padding-top: 20px;
+  font-family: 'ScienceFair';
+  text-align: center;
+  margin-bottom: 20px;
+}
+.info-box h3 {
+  font-size: 1.8em;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0.4em;
+}
+.info-box p {
+  margin: 0.5em 0;
+}
+.info-box-bottom p {
+  margin: 0;
+
+}
+.info-box-bottom {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px 0;
+}
+.info-box-bottom-big {
+  font-size: 1.6em;
+  font-weight: normal;
+}
+
+
+input, textarea {
+  border-radius: 12px;
+  font-size: 1em;
+  border: none;
+  background: #f0f0f0;
+  padding: 0.9em;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none !important;
+  font-family: Helvetica, sans-serif;
+}
+textarea {
+  resize:vertical;
+}
+form input, form textarea {
+  margin-bottom: 0.5em;
+}
+input:focus,
+textarea:focus {
+  background: #e6e6e6;
+}
+form button {
+  cursor: pointer;
+  background: #7ccf7d;
+  border-radius: 12px;
+  border: none;
+  padding: 0.6em 50px;
+  font-size: 1.2em;
+  font-family: 'ScienceFair', sans-serif;
+  margin-top: 0;
+  box-sizing: border-box;
+  outline: none !important;
+  color: #fff;
+}
+form button:hover {
+  background-color: #35bd48;
+  cursor: pointer;
+}
+
+h3.sub-header {
+  font-family: 'ScienceFair', sans-serif;
+  font-size: 1em;
+  margin-bottom: 15px;
+  font-size: 1.6em;
+}
+
+.person-info {
+  clear: both;
+}
+.person-info img {
+  border-radius: 100px;
+  float: left;
+  margin-right: 20px;
+  width: 100px;
+}
+.person-info .mail-address {
+  color: #9a9a9a;
+}
+.person-info h3,
+.person-info .mail-address {
+  font-family: 'ScienceFair', sans-serif;
+  font-weight: bold;
+  font-size: 1.6em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.section-content .row .person-info p,
+.section-content .row .citation p {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 1.1em;
+  line-height: 1.3em;
+}
+#about-us .col-left,
+#about-us .col-right {
+  width: 48%;
+}
+.person-info {
+  margin: 2em 0;
+}
+
+#about-us .row .col-right {
+  padding-top: 0;
+}
+
+.section-content .row .citation p .fa-quote-left {
+  float: left;
+  font-size: 2em;
+  line-height: 0.4em;
+  margin-right: 12px;
+  color: #35bd48;
+  margin-bottom: 10px;
+}
+
+.section-content .row .citation {
+  margin: 2em 0;
+}
+
+.section-content .row .citation .author {
+  font-style: italic;
+  text-align: right;
+  font-weight: bold;
+  margin-top: 0.5em;
+  padding-right: 1em;
+}
+
+a {
+  color: #009926;
+}
+a:hover, a:active {
+  color: #00701f;
+}
+
+#menu li,
+#menu li a {
+  list-style: none;
+  display: inline-block;
+  font-family: 'ScienceFair', sans-serif;
+  text-decoration: none;
+}
+
+#menu li a {
+  padding: 0 1em;
+  color: #000;
+  font-size: 1.2em;
+}
+
+#menu li.active a,
+#menu li a:hover
+{
+  /*background-color: #fff;*/
+  color: #fff;
+}
+
+#menu {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.col-left h3, .col-right .person-info h3 {
+  font-family: 'ScienceFair', sans-serif;
+  font-size: 1.2em;
+  margin: 0;
+}
+.col-left p {
+  text-align: justify;
+}
+
+.list-left {
+  float: left;
+  margin-right: 10%;
+  width: 45%;
+}
+.list-left h3 {
+  margin-top: 0;
+}
+
+/********* MOBIlE *********/
+
+@media screen and (max-height: 720px), screen and (max-width: 1180px) {
+  body {
+    background-color: #fff;
+  }
+  .section-content {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  #fp-nav span, .fp-slidesNav span {
+    border-color: #35bd48;
+    background-color: #35bd48;
+  }
+  #fp-nav li .active span {
+    background: #000;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .section-content .row .col-right,
+  .section-content .row .col-left,
+  .list-left {
+    width: 100%;
+    margin: 0;
+  }
+  .photo-gallery .img-wrap {
+    padding: 0;
+  }
+  .photo-gallery .img-wrap.even {
+    padding: 0 0 10px 5px;
+  }
+  #about-us .col-left,
+  #about-us .col-right {
+    width: 100%;
+  }
+  #first #logo {
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  #menu li {
+    width: 24%;
+    font-size: 0.8em;
+  }
+  #fb-link {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1180px),
+screen and (min-height: 800px) {
+  .section-content .row .col-right {
+    padding-top: 4.4em;
+  }
+}
+
+.anchor-link {
+  display: none;
+}
